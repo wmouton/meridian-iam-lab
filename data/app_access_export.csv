@@ -1,0 +1,304 @@
+account_id,employee_id,display_name,app,entitlement,account_type,owner,granted_date,last_login,mfa_registered
+priya.nkosi@meridian-lab.example,E10039,Priya Nkosi,ERP,ERP:Period_Close,user,E10194,2024-09-16,2026-09-14,TRUE
+olivia.khumalo@meridian-lab.example,E10008,Olivia Khumalo,ATS,ATS:Recruiter,user,E10007,2026-03-29,2026-09-02,TRUE
+chloe.patel@meridian-lab.example,E10121,Chloe Patel,CRM,CRM:Rep,user,E10138,2023-05-12,2026-09-21,TRUE
+oliver.wilson@meridian-lab.example,E10100,Oliver Wilson,CRM,CRM:Rep,user,E10136,2026-07-02,2026-09-06,TRUE
+kagiso.ndlovu@meridian-lab.example,E10133,Kagiso Ndlovu,CRM,CRM:Manager,user,E10194,2025-07-07,2026-09-12,TRUE
+naledi.sithole@meridian-lab.example,E10066,Naledi Sithole,IAM,IAM:Helpdesk_Admin,user,E10074,2025-12-28,2026-03-11,TRUE
+chloe.patel@meridian-lab.example,E10121,Chloe Patel,WMS,WMS:Read,user,E10138,2024-01-08,2026-09-21,TRUE
+nomsa.jansen@meridian-lab.example,E10019,Nomsa Jansen,ERP,ERP:GL_Post,user,E10038,2025-05-07,2026-09-26,TRUE
+palesa.wilson@meridian-lab.example,E10082,Palesa Wilson,ITSM,ITSM:Agent,user,E10130,2024-01-22,2026-09-09,TRUE
+riaan.clarke@meridian-lab.example,E10070,Riaan Clarke,SIEM,SIEM:Analyst,user,E10074,2022-10-03,2026-09-27,TRUE
+jacob.jansen@meridian-lab.example,E10029,Jacob Jansen,ERP,ERP:AP_Entry,user,E10040,2024-03-26,2026-09-25,TRUE
+pieter.botha@meridian-lab.example,E10158,Pieter Botha,WMS,WMS:Read,user,E10181,2025-02-23,2026-09-03,TRUE
+megan.maseko@meridian-lab.example,E10017,Megan Maseko,ERP,ERP:GL_Post,user,E10040,2024-10-16,2026-09-26,TRUE
+naledi.wilson@meridian-lab.example,E10109,Naledi Wilson,CRM,CRM:Rep,user,E10130,2025-12-24,2026-09-25,TRUE
+lerato.govender@meridian-lab.example,E10006,Lerato Govender,HRIS,HRIS:HR_Admin,user,E10194,2024-07-26,2026-09-10,TRUE
+ethan.khumalo@meridian-lab.example,E10054,Ethan Khumalo,ITSM,ITSM:Agent,user,E10075,2025-05-16,2026-09-19,TRUE
+liam.khumalo@meridian-lab.example,E10032,Liam Khumalo,ERP,ERP:Payroll_Run,user,E10040,2026-03-19,2026-09-18,TRUE
+priya.adams@meridian-lab.example,E10067,Priya Adams,ITSM,ITSM:Agent,user,E10073,2023-07-16,2026-09-01,TRUE
+lindiwe.pretorius@meridian-lab.example,E10024,Lindiwe Pretorius,ERP,ERP:AP_Entry,user,E10038,2024-02-29,2026-09-20,TRUE
+pieter.patel@meridian-lab.example,E10187,Pieter Patel,CLM,CLM:Contributor,user,E10192,2025-01-23,2026-09-03,TRUE
+tariq.evans@meridian-lab.example,E10132,Tariq Evans,CLM,CLM:Contributor,user,E10194,2022-12-02,2026-09-10,TRUE
+johan.dlamini@meridian-lab.example,E10061,Johan Dlamini,ITSM,ITSM:Agent,user,E10075,2024-07-14,2026-09-09,FALSE
+nomsa.williams@meridian-lab.example,E10004,Nomsa Williams,HRIS,HRIS:HR_Read,user,E10006,2025-02-01,2026-03-19,TRUE
+priya.fourie@meridian-lab.example,E10177,Priya Fourie,WMS,WMS:Operator,user,E10180,2023-03-17,2026-09-22,TRUE
+former-vendor-travel@meridian-lab.example,,former-vendor-travel,CRM,CRM:Admin,user,,2023-04-02,2026-08-29,TRUE
+riaan.smith@meridian-lab.example,E10034,Riaan Smith,ERP,ERP:Payroll_Run,user,E10039,2024-12-06,2026-09-11,TRUE
+nomsa.ndlovu@meridian-lab.example,E10007,Nomsa Ndlovu,HRIS,HRIS:HR_Admin,user,E10194,2025-08-14,2026-09-10,TRUE
+former-vendor-print@meridian-lab.example,,former-vendor-print,CRM,CRM:Rep,user,,2022-02-10,2026-04-15,TRUE
+ethan.zulu@meridian-lab.example,E10063,Ethan Zulu,INFRA,INFRA:Admin_Eligible,user,E10074,2025-03-18,2026-09-04,TRUE
+ctr-kwezi@meridian-lab.example,,ctr-kwezi,CRM,CRM:Rep,user,,2025-04-20,2025-12-29,TRUE
+ctr-tidewater@meridian-lab.example,,ctr-tidewater,HRIS,HRIS:HR_Read,user,,2025-10-07,2025-09-15,TRUE
+ctr-lumen@meridian-lab.example,,ctr-lumen,HRIS,HRIS:HR_Read,user,,2024-05-06,2026-01-06,TRUE
+sarah.naidoo@meridian-lab.example,E10076,Sarah Naidoo,CRM,CRM:Rep,user,E10132,2025-02-27,2026-09-08,TRUE
+ruan.adams@meridian-lab.example,E10188,Ruan Adams,CLM,CLM:Contributor,user,E10192,2024-06-18,2026-09-19,TRUE
+ruan.pretorius@meridian-lab.example,E10107,Ruan Pretorius,CRM,CRM:Rep,user,E10136,2025-06-29,2026-09-23,TRUE
+hannah.ngubane@meridian-lab.example,E10146,Hannah Ngubane,WMS,WMS:Read,user,E10185,2023-12-03,2026-09-21,TRUE
+ruan.brown@meridian-lab.example,E10175,Ruan Brown,WMS,WMS:Operator,user,E10185,2023-07-29,2026-09-13,TRUE
+megan.smith@meridian-lab.example,E10057,Megan Smith,INFRA,INFRA:Admin_Eligible,user,E10073,2023-10-17,2026-01-02,TRUE
+former-vendor-print@meridian-lab.example,,former-vendor-print,ITSM,ITSM:Agent,user,,2022-11-28,2025-09-30,TRUE
+megan.clarke@meridian-lab.example,E10128,Megan Clarke,CRM,CRM:Rep,user,E10133,2025-05-07,2026-09-23,TRUE
+oliver.vandermerwe@meridian-lab.example,E10183,Oliver van der Merwe,WMS,WMS:Approver,user,E10194,2026-07-28,2026-09-07,TRUE
+lindiwe.clarke@meridian-lab.example,E10169,Lindiwe Clarke,WMS,WMS:Operator,user,E10184,2026-03-16,2025-12-04,TRUE
+thandi.patel@meridian-lab.example,E10172,Thandi Patel,WMS,WMS:Operator,user,E10180,2026-08-24,2026-09-29,TRUE
+jacob.ndlovu@meridian-lab.example,E10110,Jacob Ndlovu,CLM,CLM:Contributor,user,E10137,2022-09-24,2026-09-23,TRUE
+ryan.jansen@meridian-lab.example,E10012,Ryan Jansen,WMS,WMS:Read,user,E10006,2024-03-14,2026-09-29,TRUE
+themba.ferreira@meridian-lab.example,E10118,Themba Ferreira,CRM,CRM:Rep,user,E10131,2024-01-22,2026-09-30,TRUE
+test.user1@meridian-lab.example,,test.user1,HRIS,HRIS:HR_Read,user,,2023-11-28,2025-12-01,TRUE
+tariq.jansen@meridian-lab.example,E10182,Tariq Jansen,WMS,WMS:Approver,user,E10194,2025-07-06,2026-09-09,TRUE
+ctr-ironvale@meridian-lab.example,,ctr-ironvale,ERP,ERP:GL_Read,user,,2023-07-31,2025-09-11,TRUE
+liam.ngubane@meridian-lab.example,E10020,Liam Ngubane,ERP,ERP:GL_Post,user,E10039,2024-09-10,2026-09-25,TRUE
+olivia.naidoo@meridian-lab.example,E10155,Olivia Naidoo,WMS,WMS:Read,user,E10180,2024-01-14,2026-05-12,TRUE
+thandi.smith@meridian-lab.example,E10038,Thandi Smith,ERP,ERP:GL_Read,user,E10194,2022-10-07,2026-09-26,TRUE
+riaan.smith@meridian-lab.example,E10034,Riaan Smith,HRIS,HRIS:HR_Admin,user,E10039,2024-03-11,2026-09-11,TRUE
+palesa.patel@meridian-lab.example,E10037,Palesa Patel,ATS,ATS:Recruiter,user,E10194,2024-10-16,2026-09-06,TRUE
+former-vendor-audit@meridian-lab.example,,former-vendor-audit,ITSM,ITSM:Admin,user,,2023-09-06,2026-06-25,TRUE
+themba.zulu@meridian-lab.example,E10103,Themba Zulu,CRM,CRM:Rep,user,E10138,2025-10-31,2026-09-09,TRUE
+mpho.maseko@meridian-lab.example,E10195,Mpho Maseko,BI,BI:Executive,user,E10194,2023-07-07,2026-03-23,TRUE
+priya.botha@meridian-lab.example,E10036,Priya Botha,ERP,ERP:GL_Read,user,E10194,2025-07-14,2026-09-24,TRUE
+mpho.clarke@meridian-lab.example,E10084,Mpho Clarke,CRM,CRM:Rep,user,E10132,2023-11-12,2026-01-25,TRUE
+ctr-bluepeak@meridian-lab.example,,ctr-bluepeak,CLM,CLM:Contributor,user,,2024-01-23,2025-11-28,TRUE
+megan.smith@meridian-lab.example,E10057,Megan Smith,ITSM,ITSM:Agent,user,E10073,2026-01-12,2026-01-02,TRUE
+priya.fourie@meridian-lab.example,E10177,Priya Fourie,WMS,WMS:Approver,user,E10180,2025-09-25,2026-09-22,TRUE
+themba.coetzee@meridian-lab.example,E10043,Themba Coetzee,ITSM,ITSM:Agent,user,E10074,2024-08-05,2026-09-25,TRUE
+ntombi.nkosi@meridian-lab.example,E10120,Ntombi Nkosi,CRM,CRM:Rep,user,E10131,2024-11-01,2026-09-20,TRUE
+palesa.jones@meridian-lab.example,E10096,Palesa Jones,CRM,CRM:Rep,user,E10132,2025-05-15,2026-09-16,TRUE
+olivia.govender@meridian-lab.example,E10168,Olivia Govender,WMS,WMS:Operator,user,E10183,2023-03-15,2026-09-15,TRUE
+tariq.khumalo@meridian-lab.example,E10139,Tariq Khumalo,CRM,CRM:Admin,user,E10130,2024-07-04,2026-09-20,TRUE
+ryan.ferreira@meridian-lab.example,E10030,Ryan Ferreira,ERP,ERP:AP_Entry,user,E10040,2023-04-10,2026-09-15,TRUE
+kabelo.ngubane@meridian-lab.example,E10085,Kabelo Ngubane,CRM,CRM:Rep,user,E10136,2023-09-23,2026-09-08,TRUE
+olivia.zulu@meridian-lab.example,E10192,Olivia Zulu,CLM,CLM:Contributor,user,E10194,2025-02-17,2026-09-07,TRUE
+ethan.moyo@meridian-lab.example,E10060,Ethan Moyo,ITSM,ITSM:Agent,user,E10073,2024-05-28,2026-09-19,FALSE
+themba.zulu@meridian-lab.example,E10103,Themba Zulu,ITSM,ITSM:Agent,user,E10138,2023-10-14,2026-09-09,TRUE
+pieter.mokoena@meridian-lab.example,E10205,Pieter Mokoena,CLM,CLM:Contributor,user,E10192,2025-02-26,2026-03-20,TRUE
+riaan.mokoena@meridian-lab.example,E10191,Riaan Mokoena,CLM,CLM:Approver,user,E10194,2023-01-03,2026-09-11,TRUE
+michael.khumalo@meridian-lab.example,E10041,Michael Khumalo,ITSM,ITSM:Agent,user,E10075,2023-06-11,2026-09-05,TRUE
+mpho.taylor@meridian-lab.example,E10170,Mpho Taylor,WMS,WMS:Operator,user,E10184,2025-06-26,2026-04-24,TRUE
+sarah.ndlovu@meridian-lab.example,E10126,Sarah Ndlovu,CRM,CRM:Rep,user,E10131,2023-09-26,2026-09-18,TRUE
+test.user2@meridian-lab.example,,test.user2,HRIS,HRIS:HR_Read,user,,2025-02-22,2026-09-06,TRUE
+riaan.mokoena@meridian-lab.example,E10191,Riaan Mokoena,CLM,CLM:Contributor,user,E10194,2026-09-11,2026-09-11,TRUE
+former-vendor-cleaning@meridian-lab.example,,former-vendor-cleaning,CRM,CRM:Rep,user,,2023-02-15,2026-05-26,TRUE
+sipho.radebe@meridian-lab.example,E10116,Sipho Radebe,CRM,CRM:Rep,user,E10132,2024-07-17,2026-09-24,TRUE
+tariq.cele@meridian-lab.example,E10049,Tariq Cele,ITSM,ITSM:Agent,user,E10073,2023-03-31,2026-09-29,TRUE
+ctr-tidewater@meridian-lab.example,,ctr-tidewater,ERP,ERP:GL_Read,user,,2021-12-07,2025-09-01,TRUE
+ethan.zulu@meridian-lab.example,E10063,Ethan Zulu,ITSM,ITSM:Agent,user,E10074,2024-07-31,2026-09-04,TRUE
+thabo.tshabalala@meridian-lab.example,E10042,Thabo Tshabalala,ITSM,ITSM:Agent,user,E10074,2026-04-06,2025-12-24,TRUE
+johan.mokoena@meridian-lab.example,E10196,Johan Mokoena,WMS,WMS:Read,user,E10194,2023-05-10,2026-09-16,TRUE
+emma.singh@meridian-lab.example,E10040,Emma Singh,ERP,ERP:GL_Read,user,E10194,2025-02-01,2026-09-11,TRUE
+lerato.govender@meridian-lab.example,E10006,Lerato Govender,HRIS,HRIS:HR_Read,user,E10194,2023-07-03,2026-09-10,TRUE
+test.user3@meridian-lab.example,,test.user3,ITSM,ITSM:Agent,user,,2024-09-15,2025-10-13,TRUE
+priya.nkosi@meridian-lab.example,E10039,Priya Nkosi,ERP,ERP:AP_Approve,user,E10194,2024-08-23,2026-09-14,TRUE
+liam.vandermerwe@meridian-lab.example,E10165,Liam van der Merwe,WMS,WMS:Operator,user,E10185,2023-01-23,2026-09-15,TRUE
+palesa.patel@meridian-lab.example,E10037,Palesa Patel,ERP,ERP:AP_Approve,user,E10194,2022-10-14,2026-09-06,TRUE
+tariq.patel@meridian-lab.example,E10050,Tariq Patel,ITSM,ITSM:Agent,user,E10074,2025-10-13,2026-09-21,TRUE
+ctr-kwezi@meridian-lab.example,,ctr-kwezi,ITSM,ITSM:Agent,user,,2022-07-19,2026-05-04,TRUE
+svc-backup@meridian-lab.example,,svc-backup,INFRA,INFRA:Backup_Operator,service,E10073,2024-01-15,2026-09-30,N/A
+nomsa.mahlangu@meridian-lab.example,E10173,Nomsa Mahlangu,ATS,ATS:Recruiter,user,E10180,2023-10-29,2026-09-25,TRUE
+oliver.clarke@meridian-lab.example,E10166,Oliver Clarke,WMS,WMS:Operator,user,E10182,2024-06-01,2026-09-21,TRUE
+bongani.ngubane@meridian-lab.example,E10068,Bongani Ngubane,SIEM,SIEM:Analyst,user,E10075,2025-08-07,2025-12-11,TRUE
+test.user4@meridian-lab.example,,test.user4,CRM,CRM:Rep,user,,2023-01-14,2025-12-27,TRUE
+zanele.adams@meridian-lab.example,E10162,Zanele Adams,WMS,WMS:Operator,user,E10184,2025-06-20,2026-09-05,TRUE
+pieter.sithole@meridian-lab.example,E10190,Pieter Sithole,CLM,CLM:Contributor,user,E10192,2024-02-14,2026-05-18,TRUE
+test.user4@meridian-lab.example,,test.user4,CLM,CLM:Contributor,user,,2022-09-14,2026-08-02,TRUE
+lindiwe.cele@meridian-lab.example,E10064,Lindiwe Cele,ITSM,ITSM:Agent,user,E10075,2025-04-09,2026-09-20,TRUE
+priya.brown@meridian-lab.example,E10152,Priya Brown,WMS,WMS:Read,user,E10182,2026-05-19,2026-09-09,TRUE
+chloe.adams@meridian-lab.example,E10122,Chloe Adams,CRM,CRM:Rep,user,E10131,2023-09-20,2026-09-14,TRUE
+ryan.jansen@meridian-lab.example,E10012,Ryan Jansen,ATS,ATS:Recruiter,user,E10006,2025-01-26,2026-09-29,TRUE
+former-vendor-audit@meridian-lab.example,,former-vendor-audit,CLM,CLM:Contributor,user,,2025-09-21,2025-12-30,TRUE
+mpho.evans@meridian-lab.example,E10056,Mpho Evans,ITSM,ITSM:Agent,user,E10073,2025-07-20,2026-09-03,FALSE
+thandi.nkosi@meridian-lab.example,E10055,Thandi Nkosi,ITSM,ITSM:Agent,user,E10073,2024-02-08,2026-09-17,TRUE
+test.user2@meridian-lab.example,,test.user2,ITSM,ITSM:Agent,user,,2025-08-21,2026-06-28,TRUE
+pieter.duplessis@meridian-lab.example,E10137,Pieter Du Plessis,CRM,CRM:Manager,user,E10194,2023-06-30,2026-09-14,TRUE
+priya.ferreira@meridian-lab.example,E10091,Priya Ferreira,CRM,CRM:Rep,user,E10138,2025-07-19,2026-09-29,TRUE
+sipho.wilson@meridian-lab.example,E10031,Sipho Wilson,ERP,ERP:AP_Approve,user,E10037,2024-10-20,2026-09-07,TRUE
+sipho.sithole@meridian-lab.example,E10185,Sipho Sithole,ATS,ATS:Recruiter,user,E10194,2025-05-10,2026-09-04,TRUE
+kagiso.pretorius@meridian-lab.example,E10167,Kagiso Pretorius,WMS,WMS:Operator,user,E10183,2024-01-04,2026-03-14,TRUE
+oliver.evans@meridian-lab.example,E10197,Oliver Evans,BI,BI:Executive,user,E10194,2025-09-27,2026-09-04,TRUE
+ctr-lumen@meridian-lab.example,,ctr-lumen,ITSM,ITSM:Admin,user,,2024-07-02,2026-06-06,TRUE
+sarah.taylor@meridian-lab.example,E10083,Sarah Taylor,ITSM,ITSM:Agent,user,E10135,2024-06-29,2026-09-05,TRUE
+hannah.khumalo@meridian-lab.example,E10015,Hannah Khumalo,ERP,ERP:GL_Post,user,E10038,2025-09-06,2026-09-09,TRUE
+test.user4@meridian-lab.example,,test.user4,HRIS,HRIS:HR_Read,user,,2022-02-16,2026-01-12,TRUE
+naledi.coetzee@meridian-lab.example,E10023,Naledi Coetzee,ERP,ERP:AP_Entry,user,E10037,2024-08-09,2026-09-05,TRUE
+isabella.jones@meridian-lab.example,E10149,Isabella Jones,WMS,WMS:Read,user,E10181,2024-12-22,2026-09-01,TRUE
+kabelo.mahlangu@meridian-lab.example,E10161,Kabelo Mahlangu,WMS,WMS:Operator,user,E10183,2024-06-09,2026-09-22,TRUE
+mpho.govender@meridian-lab.example,E10073,Mpho Govender,ITSM,ITSM:Admin,user,E10194,2024-03-27,2026-09-30,TRUE
+priya.nkosi@meridian-lab.example,E10039,Priya Nkosi,ERP,ERP:GL_Read,user,E10194,2023-08-29,2026-09-14,TRUE
+themba.ngubane@meridian-lab.example,E10113,Themba Ngubane,CRM,CRM:Rep,user,E10130,2026-06-03,2026-09-28,TRUE
+sipho.sithole@meridian-lab.example,E10185,Sipho Sithole,WMS,WMS:Approver,user,E10194,2023-08-31,2026-09-04,TRUE
+chloe.clarke@meridian-lab.example,E10184,Chloe Clarke,WMS,WMS:Approver,user,E10194,2025-11-28,2026-09-22,TRUE
+daniel.ferreira@meridian-lab.example,E10046,Daniel Ferreira,ITSM,ITSM:Agent,user,E10075,2023-06-16,2026-09-14,TRUE
+pieter.taylor@meridian-lab.example,E10106,Pieter Taylor,CRM,CRM:Rep,user,E10131,2026-09-19,2026-02-24,TRUE
+sipho.evans@meridian-lab.example,E10104,Sipho Evans,ATS,ATS:Recruiter,user,E10132,2023-04-22,2026-09-12,TRUE
+michael.fourie@meridian-lab.example,E10095,Michael Fourie,CRM,CRM:Rep,user,E10134,2023-09-05,2026-09-17,TRUE
+ayesha.adams@meridian-lab.example,E10181,Ayesha Adams,WMS,WMS:Approver,user,E10194,2024-06-04,2026-09-04,TRUE
+sarah.vandermerwe@meridian-lab.example,E10156,Sarah van der Merwe,WMS,WMS:Read,user,E10182,2024-01-31,2026-08-31,TRUE
+test.user3@meridian-lab.example,,test.user3,CLM,CLM:Contributor,user,,2022-10-06,2026-07-12,TRUE
+amara.sithole@meridian-lab.example,E10052,Amara Sithole,ITSM,ITSM:Agent,user,E10074,2026-07-30,2026-09-16,TRUE
+fatima.duplessis@meridian-lab.example,E10147,Fatima Du Plessis,WMS,WMS:Read,user,E10184,2024-02-14,2026-09-08,TRUE
+sipho.wilson@meridian-lab.example,E10031,Sipho Wilson,ERP,ERP:AP_Entry,user,E10037,2023-06-22,2026-09-07,TRUE
+lindiwe.botha@meridian-lab.example,E10203,Lindiwe Botha,ERP,ERP:Payroll_Run,user,E10037,2024-11-02,2026-05-20,TRUE
+kagiso.vandermerwe@meridian-lab.example,E10119,Kagiso van der Merwe,CRM,CRM:Rep,user,E10136,2024-03-02,2026-09-16,TRUE
+kagiso.ngubane@meridian-lab.example,E10065,Kagiso Ngubane,IAM,IAM:Helpdesk_Admin,user,E10074,2025-02-04,2026-09-04,TRUE
+emma.ndlovu@meridian-lab.example,E10206,Emma Ndlovu,ITSM,ITSM:Agent,user,E10075,2022-06-12,2026-06-14,TRUE
+thabo.ndlovu@meridian-lab.example,E10174,Thabo Ndlovu,WMS,WMS:Operator,user,E10181,2026-04-24,2026-09-17,TRUE
+olivia.zulu@meridian-lab.example,E10192,Olivia Zulu,CLM,CLM:Approver,user,E10194,2024-02-26,2026-09-07,TRUE
+riaan.jones@meridian-lab.example,E10125,Riaan Jones,CRM,CRM:Rep,user,E10136,2024-04-01,2026-09-27,TRUE
+ethan.patel@meridian-lab.example,E10058,Ethan Patel,ITSM,ITSM:Agent,user,E10073,2025-04-29,2026-09-30,TRUE
+thabo.ngubane@meridian-lab.example,E10163,Thabo Ngubane,WMS,WMS:Operator,user,E10183,2024-01-11,2026-09-21,TRUE
+ethan.patel@meridian-lab.example,E10058,Ethan Patel,INFRA,INFRA:Admin_Eligible,user,E10073,2026-05-18,2026-09-30,TRUE
+tariq.mokoena@meridian-lab.example,E10022,Tariq Mokoena,ERP,ERP:GL_Post,user,E10038,2024-07-31,2026-09-03,TRUE
+hannah.wilson@meridian-lab.example,E10130,Hannah Wilson,CRM,CRM:Manager,user,E10194,2023-04-17,2026-09-09,TRUE
+riaan.radebe@meridian-lab.example,E10108,Riaan Radebe,CRM,CRM:Rep,user,E10138,2025-12-28,2026-09-08,TRUE
+lindiwe.nkosi@meridian-lab.example,E10035,Lindiwe Nkosi,ERP,ERP:Payroll_Run,user,E10036,2024-06-10,2026-09-03,TRUE
+nomsa.wilson@meridian-lab.example,E10136,Nomsa Wilson,CRM,CRM:Manager,user,E10194,2026-07-10,2026-09-26,TRUE
+jacob.mthembu@meridian-lab.example,E10026,Jacob Mthembu,ERP,ERP:AP_Approve,user,E10039,2023-08-31,2026-09-05,TRUE
+liam.khumalo@meridian-lab.example,E10032,Liam Khumalo,HRIS,HRIS:HR_Admin,user,E10040,2024-12-17,2026-09-18,TRUE
+ruan.jansen@meridian-lab.example,E10164,Ruan Jansen,WMS,WMS:Operator,user,E10184,2023-11-14,2026-09-13,TRUE
+kagiso.fourie@meridian-lab.example,E10077,Kagiso Fourie,CRM,CRM:Rep,user,E10132,2025-06-13,2026-09-19,TRUE
+sarah.fourie@meridian-lab.example,E10202,Sarah Fourie,ITSM,ITSM:Agent,user,E10073,2024-12-20,2026-07-21,TRUE
+ayesha.brown@meridian-lab.example,E10053,Ayesha Brown,ITSM,ITSM:Agent,user,E10074,2025-12-04,2026-09-19,TRUE
+nomsa.ndlovu@meridian-lab.example,E10007,Nomsa Ndlovu,HRIS,HRIS:HR_Read,user,E10194,2023-09-25,2026-09-10,TRUE
+samuel.brown@meridian-lab.example,E10027,Samuel Brown,ERP,ERP:AP_Approve,user,E10039,2022-11-27,2026-09-18,TRUE
+nathan.naidoo@meridian-lab.example,E10176,Nathan Naidoo,WMS,WMS:Operator,user,E10184,2023-10-20,2026-09-02,TRUE
+nathan.cele@meridian-lab.example,E10025,Nathan Cele,ERP,ERP:AP_Entry,user,E10036,2025-05-19,2026-09-18,TRUE
+samuel.brown@meridian-lab.example,E10027,Samuel Brown,ERP,ERP:AP_Entry,user,E10039,2023-05-08,2026-09-18,TRUE
+daniel.wilson@meridian-lab.example,E10143,Daniel Wilson,CRM,CRM:Admin,user,E10136,2025-09-30,2026-09-22,FALSE
+michael.ngubane@meridian-lab.example,E10153,Michael Ngubane,WMS,WMS:Read,user,E10184,2023-02-22,2026-09-08,TRUE
+jacob.mthembu@meridian-lab.example,E10026,Jacob Mthembu,ERP,ERP:AP_Entry,user,E10039,2024-07-18,2026-09-05,TRUE
+riaan.taylor@meridian-lab.example,E10186,Riaan Taylor,CLM,CLM:Contributor,user,E10191,2026-07-16,2026-09-13,TRUE
+emma.ndlovu@meridian-lab.example,E10206,Emma Ndlovu,IAM,IAM:Helpdesk_Admin,user,E10075,2022-06-12,2026-06-14,TRUE
+thandi.smith@meridian-lab.example,E10038,Thandi Smith,ERP,ERP:AP_Approve,user,E10194,2024-04-06,2026-09-26,TRUE
+jacob.wilson@meridian-lab.example,E10123,Jacob Wilson,CRM,CRM:Rep,user,E10134,2025-08-31,2026-09-06,TRUE
+naledi.sithole@meridian-lab.example,E10066,Naledi Sithole,ITSM,ITSM:Agent,user,E10074,2023-05-11,2026-03-11,TRUE
+tariq.mthembu@meridian-lab.example,E10171,Tariq Mthembu,WMS,WMS:Operator,user,E10185,2024-02-13,2026-09-02,TRUE
+megan.khumalo@meridian-lab.example,E10059,Megan Khumalo,ITSM,ITSM:Agent,user,E10074,2024-02-05,2026-09-24,TRUE
+themba.mokoena@meridian-lab.example,E10075,Themba Mokoena,ITSM,ITSM:Admin,user,E10194,2024-10-23,2026-09-05,TRUE
+ayesha.jansen@meridian-lab.example,E10115,Ayesha Jansen,CRM,CRM:Rep,user,E10133,2023-06-19,2026-09-17,TRUE
+priya.adams@meridian-lab.example,E10067,Priya Adams,IAM,IAM:Helpdesk_Admin,user,E10073,2023-09-21,2026-09-01,TRUE
+amara.venter@meridian-lab.example,E10111,Amara Venter,CRM,CRM:Rep,user,E10131,2024-08-01,2026-09-26,TRUE
+ayesha.radebe@meridian-lab.example,E10201,Ayesha Radebe,CRM,CRM:Admin,user,E10138,2020-02-21,2026-05-18,TRUE
+nomsa.moyo@meridian-lab.example,E10069,Nomsa Moyo,SIEM,SIEM:Analyst,user,E10075,2023-07-28,2026-09-18,TRUE
+bongani.zulu@meridian-lab.example,E10048,Bongani Zulu,CRM,CRM:Rep,user,E10074,2026-01-14,2026-09-11,TRUE
+lindiwe.nkosi@meridian-lab.example,E10035,Lindiwe Nkosi,HRIS,HRIS:HR_Admin,user,E10036,2023-02-20,2026-09-03,TRUE
+mpho.cele@meridian-lab.example,E10145,Mpho Cele,CRM,CRM:Admin,user,E10130,2025-11-07,2026-09-06,TRUE
+kagiso.dlamini@meridian-lab.example,E10138,Kagiso Dlamini,CRM,CRM:Manager,user,E10194,2025-09-09,2026-09-21,TRUE
+emma.singh@meridian-lab.example,E10040,Emma Singh,ERP,ERP:Period_Close,user,E10194,2026-07-12,2026-09-11,TRUE
+sipho.vandermerwe@meridian-lab.example,E10180,Sipho van der Merwe,WMS,WMS:Approver,user,E10194,2024-12-21,2026-09-20,TRUE
+megan.khumalo@meridian-lab.example,E10059,Megan Khumalo,INFRA,INFRA:Admin_Eligible,user,E10074,2025-02-15,2026-09-24,TRUE
+thabo.duplessis@meridian-lab.example,E10016,Thabo Du Plessis,ERP,ERP:GL_Post,user,E10040,2024-09-12,2026-09-22,TRUE
+samuel.clarke@meridian-lab.example,E10005,Samuel Clarke,HRIS,HRIS:HR_Read,user,E10006,2024-03-24,2026-09-21,TRUE
+megan.brown@meridian-lab.example,E10144,Megan Brown,CRM,CRM:Admin,user,E10133,2022-09-28,2026-09-09,TRUE
+sarah.fourie@meridian-lab.example,E10202,Sarah Fourie,IAM,IAM:Helpdesk_Admin,user,E10073,2024-12-20,2026-07-21,TRUE
+isabella.brown@meridian-lab.example,E10124,Isabella Brown,CRM,CRM:Rep,user,E10132,2024-12-08,2026-01-28,TRUE
+sipho.brown@meridian-lab.example,E10151,Sipho Brown,WMS,WMS:Read,user,E10180,2024-03-26,2026-09-13,TRUE
+pieter.singh@meridian-lab.example,E10198,Pieter Singh,BI,BI:Executive,user,E10194,2025-01-04,2026-09-03,TRUE
+thandi.naidoo@meridian-lab.example,E10099,Thandi Naidoo,CRM,CRM:Rep,user,E10134,2026-01-19,2026-09-10,TRUE
+palesa.maseko@meridian-lab.example,E10200,Palesa Maseko,BI,BI:Executive,user,E10194,2024-08-13,2026-09-22,TRUE
+themba.taylor@meridian-lab.example,E10018,Themba Taylor,ERP,ERP:GL_Post,user,E10036,2026-08-02,2026-09-10,TRUE
+fatima.moyo@meridian-lab.example,E10131,Fatima Moyo,CRM,CRM:Manager,user,E10194,2025-11-17,2026-03-06,TRUE
+jacob.ndlovu@meridian-lab.example,E10110,Jacob Ndlovu,CRM,CRM:Rep,user,E10137,2025-07-19,2026-09-23,TRUE
+lindiwe.evans@meridian-lab.example,E10002,Lindiwe Evans,HRIS,HRIS:HR_Read,user,E10007,2025-09-10,2026-03-21,TRUE
+sipho.patel@meridian-lab.example,E10204,Sipho Patel,WMS,WMS:Read,user,E10181,2023-02-23,2026-05-22,TRUE
+palesa.wilson@meridian-lab.example,E10082,Palesa Wilson,CRM,CRM:Rep,user,E10130,2025-01-28,2026-09-09,TRUE
+nathan.cele@meridian-lab.example,E10025,Nathan Cele,ERP,ERP:AP_Approve,user,E10036,2023-06-02,2026-09-18,TRUE
+ayesha.govender@meridian-lab.example,E10044,Ayesha Govender,ITSM,ITSM:Agent,user,E10075,2023-02-15,2026-09-04,TRUE
+bongani.botha@meridian-lab.example,E10071,Bongani Botha,SIEM,SIEM:Analyst,user,E10073,2024-07-26,2026-09-11,TRUE
+fatima.patel@meridian-lab.example,E10117,Fatima Patel,CRM,CRM:Rep,user,E10130,2022-11-03,2026-09-03,TRUE
+zanele.dlamini@meridian-lab.example,E10009,Zanele Dlamini,ATS,ATS:Recruiter,user,E10006,2023-11-11,2025-12-08,TRUE
+naledi.clarke@meridian-lab.example,E10160,Naledi Clarke,WMS,WMS:Operator,user,E10180,2025-08-24,2026-09-27,TRUE
+isabella.radebe@meridian-lab.example,E10112,Isabella Radebe,ATS,ATS:Recruiter,user,E10137,2023-11-06,2026-09-29,TRUE
+thabo.mokoena@meridian-lab.example,E10098,Thabo Mokoena,CRM,CRM:Rep,user,E10137,2024-06-15,2026-09-08,TRUE
+jacob.clarke@meridian-lab.example,E10011,Jacob Clarke,ATS,ATS:Recruiter,user,E10006,2023-03-15,2026-09-28,TRUE
+kabelo.jansen@meridian-lab.example,E10142,Kabelo Jansen,CRM,CRM:Admin,user,E10131,2025-07-08,2026-09-16,TRUE
+daniel.jansen@meridian-lab.example,E10088,Daniel Jansen,CRM,CRM:Rep,user,E10135,2023-02-22,2026-09-18,TRUE
+johan.patel@meridian-lab.example,E10159,Johan Patel,WMS,WMS:Read,user,E10183,2024-06-15,2026-01-14,TRUE
+former-vendor-travel@meridian-lab.example,,former-vendor-travel,CLM,CLM:Contributor,user,,2024-10-14,2025-12-25,TRUE
+ctr-northgate@meridian-lab.example,,ctr-northgate,ERP,ERP:GL_Read,user,,2022-05-01,2025-12-23,TRUE
+priya.botha@meridian-lab.example,E10036,Priya Botha,ERP,ERP:AP_Approve,user,E10194,2024-04-28,2026-09-24,TRUE
+emma.singh@meridian-lab.example,E10040,Emma Singh,ERP,ERP:AP_Approve,user,E10194,2025-02-23,2026-09-11,TRUE
+ethan.adams@meridian-lab.example,E10102,Ethan Adams,CRM,CRM:Rep,user,E10133,2024-02-29,2026-09-07,TRUE
+palesa.patel@meridian-lab.example,E10037,Palesa Patel,ERP,ERP:GL_Read,user,E10194,2023-01-23,2026-09-06,TRUE
+nomsa.smith@meridian-lab.example,E10097,Nomsa Smith,CRM,CRM:Rep,user,E10138,2025-12-14,2026-09-01,TRUE
+sipho.jansen@meridian-lab.example,E10189,Sipho Jansen,CLM,CLM:Contributor,user,E10193,2024-02-10,2026-09-20,TRUE
+thandi.ferreira@meridian-lab.example,E10193,Thandi Ferreira,CLM,CLM:Approver,user,E10194,2022-09-24,2026-04-26,TRUE
+nomsa.mahlangu@meridian-lab.example,E10173,Nomsa Mahlangu,WMS,WMS:Operator,user,E10180,2024-03-27,2026-09-25,TRUE
+former-vendor-cleaning@meridian-lab.example,,former-vendor-cleaning,ITSM,ITSM:Agent,user,,2024-05-13,2026-02-09,TRUE
+mpho.evans@meridian-lab.example,E10056,Mpho Evans,INFRA,INFRA:Admin_Eligible,user,E10073,2024-04-12,2026-09-03,FALSE
+themba.mokoena@meridian-lab.example,E10075,Themba Mokoena,SIEM,SIEM:Reader,user,E10194,2023-01-13,2026-09-05,TRUE
+thandi.botha@meridian-lab.example,E10074,Thandi Botha,ITSM,ITSM:Admin,user,E10194,2024-02-29,2026-09-01,TRUE
+ctr-northgate@meridian-lab.example,,ctr-northgate,ITSM,ITSM:Admin,user,,2023-02-13,2026-06-27,TRUE
+naledi.cele@meridian-lab.example,E10134,Naledi Cele,CRM,CRM:Manager,user,E10194,2024-03-28,2026-03-10,TRUE
+svc-crm-sync@meridian-lab.example,,svc-crm-sync,CRM,CRM:API_Integration,service,E10073,2024-01-15,2026-09-30,N/A
+lerato.mahlangu@meridian-lab.example,E10199,Lerato Mahlangu,BI,BI:Executive,user,E10194,2023-07-10,2026-09-12,TRUE
+palesa.duplessis@meridian-lab.example,E10092,Palesa Du Plessis,CRM,CRM:Rep,user,E10138,2025-01-03,2026-09-03,TRUE
+hannah.evans@meridian-lab.example,E10089,Hannah Evans,CRM,CRM:Rep,user,E10130,2023-10-21,2026-03-03,TRUE
+chloe.khumalo@meridian-lab.example,E10141,Chloe Khumalo,CRM,CRM:Admin,user,E10136,2025-01-08,2026-09-11,TRUE
+nomsa.moyo@meridian-lab.example,E10069,Nomsa Moyo,ITSM,ITSM:Agent,user,E10075,2025-05-31,2026-09-18,TRUE
+lindiwe.pretorius@meridian-lab.example,E10024,Lindiwe Pretorius,ERP,ERP:AP_Approve,user,E10038,2024-05-01,2026-09-20,TRUE
+themba.radebe@meridian-lab.example,E10140,Themba Radebe,CRM,CRM:Admin,user,E10133,2024-08-15,2026-09-30,FALSE
+hannah.jansen@meridian-lab.example,E10127,Hannah Jansen,CRM,CRM:Rep,user,E10136,2024-08-26,2026-09-26,TRUE
+ctr-ironvale@meridian-lab.example,,ctr-ironvale,WMS,WMS:Read,user,,2023-02-26,2025-09-30,TRUE
+chloe.dlamini@meridian-lab.example,E10010,Chloe Dlamini,ATS,ATS:Recruiter,user,E10006,2023-10-26,2026-09-07,TRUE
+thandi.nkosi@meridian-lab.example,E10055,Thandi Nkosi,INFRA,INFRA:Admin_Eligible,user,E10073,2022-12-01,2026-09-17,TRUE
+mpho.govender@meridian-lab.example,E10073,Mpho Govender,SIEM,SIEM:Reader,user,E10194,2023-01-25,2026-09-30,TRUE
+ryan.naidoo@meridian-lab.example,E10078,Ryan Naidoo,CRM,CRM:Rep,user,E10137,2026-04-09,2026-09-20,TRUE
+hannah.pretorius@meridian-lab.example,E10093,Hannah Pretorius,CRM,CRM:Rep,user,E10130,2024-10-06,2026-09-17,TRUE
+bongani.brown@meridian-lab.example,E10081,Bongani Brown,CRM,CRM:Rep,user,E10137,2024-06-30,2026-09-26,TRUE
+thandi.ferreira@meridian-lab.example,E10193,Thandi Ferreira,CLM,CLM:Contributor,user,E10194,2024-11-02,2026-04-26,TRUE
+mpho.mthembu@meridian-lab.example,E10045,Mpho Mthembu,ITSM,ITSM:Agent,user,E10075,2026-08-16,2026-09-08,TRUE
+thandi.botha@meridian-lab.example,E10074,Thandi Botha,SIEM,SIEM:Reader,user,E10194,2023-11-13,2026-09-01,TRUE
+emma.botha@meridian-lab.example,E10157,Emma Botha,WMS,WMS:Read,user,E10183,2026-08-29,2026-09-05,TRUE
+lindiwe.cele@meridian-lab.example,E10064,Lindiwe Cele,IAM,IAM:Helpdesk_Admin,user,E10075,2023-10-29,2026-09-20,TRUE
+fatima.jansen@meridian-lab.example,E10086,Fatima Jansen,CRM,CRM:Rep,user,E10132,2025-01-16,2026-09-07,TRUE
+chloe.brown@meridian-lab.example,E10028,Chloe Brown,ERP,ERP:AP_Entry,user,E10037,2024-11-21,2026-09-05,TRUE
+johan.dlamini@meridian-lab.example,E10061,Johan Dlamini,INFRA,INFRA:Admin_Eligible,user,E10075,2023-03-02,2026-09-09,FALSE
+sipho.evans@meridian-lab.example,E10104,Sipho Evans,CRM,CRM:Rep,user,E10132,2025-12-15,2026-09-12,TRUE
+isabella.radebe@meridian-lab.example,E10112,Isabella Radebe,CRM,CRM:Rep,user,E10137,2024-11-28,2026-09-29,TRUE
+megan.jansen@meridian-lab.example,E10062,Megan Jansen,INFRA,INFRA:Admin_Eligible,user,E10074,2026-04-14,2026-09-23,TRUE
+nathan.ndlovu@meridian-lab.example,E10094,Nathan Ndlovu,CRM,CRM:Rep,user,E10136,2025-04-14,2026-09-07,TRUE
+ethan.dlamini@meridian-lab.example,E10072,Ethan Dlamini,SIEM,SIEM:Analyst,user,E10074,2025-09-21,2026-09-04,TRUE
+ctr-tidewater@meridian-lab.example,,ctr-tidewater,ITSM,ITSM:Admin,user,,2025-12-07,2025-09-21,TRUE
+fatima.ferreira@meridian-lab.example,E10003,Fatima Ferreira,HRIS,HRIS:HR_Read,user,E10006,2024-04-27,2026-05-06,TRUE
+samuel.govender@meridian-lab.example,E10207,Samuel Govender,CLM,CLM:Contributor,user,E10192,2019-02-12,2026-04-01,TRUE
+megan.jansen@meridian-lab.example,E10062,Megan Jansen,ITSM,ITSM:Agent,user,E10074,2026-04-21,2026-09-23,TRUE
+priya.maseko@meridian-lab.example,E10114,Priya Maseko,CRM,CRM:Rep,user,E10135,2025-01-22,2026-09-05,TRUE
+ryan.dlamini@meridian-lab.example,E10209,Ryan Dlamini,ERP,ERP:Payroll_Run,user,E10038,2021-01-06,2026-05-20,TRUE
+svc-erp-integration@meridian-lab.example,,svc-erp-integration,ERP,ERP:API_Integration,service,E10073,2024-01-15,2026-09-30,N/A
+megan.taylor@meridian-lab.example,E10090,Megan Taylor,CRM,CRM:Rep,user,E10137,2026-06-06,2026-09-04,TRUE
+nomsa.clarke@meridian-lab.example,E10148,Nomsa Clarke,WMS,WMS:Read,user,E10183,2025-07-07,2026-09-15,TRUE
+sarah.taylor@meridian-lab.example,E10083,Sarah Taylor,CRM,CRM:Rep,user,E10135,2024-03-02,2026-09-05,TRUE
+johan.adams@meridian-lab.example,E10178,Johan Adams,WMS,WMS:Operator,user,E10184,2025-05-25,2026-09-22,TRUE
+ethan.patel@meridian-lab.example,E10058,Ethan Patel,CRM,CRM:Rep,user,E10073,2025-05-30,2026-09-30,TRUE
+sarah.botha@meridian-lab.example,E10051,Sarah Botha,ITSM,ITSM:Agent,user,E10075,2023-05-01,2026-09-10,TRUE
+jacob.jansen@meridian-lab.example,E10029,Jacob Jansen,ERP,ERP:AP_Approve,user,E10040,2026-04-21,2026-09-25,TRUE
+tariq.evans@meridian-lab.example,E10132,Tariq Evans,CRM,CRM:Manager,user,E10194,2024-04-05,2026-09-10,TRUE
+test.user1@meridian-lab.example,,test.user1,ITSM,ITSM:Admin,user,,2024-03-27,2026-04-24,TRUE
+ctr-kwezi@meridian-lab.example,,ctr-kwezi,ITSM,ITSM:Admin,user,,2021-12-13,2026-01-31,TRUE
+bongani.cele@meridian-lab.example,E10047,Bongani Cele,ITSM,ITSM:Agent,user,E10073,2026-02-06,2026-09-05,TRUE
+zanele.nkosi@meridian-lab.example,E10101,Zanele Nkosi,CRM,CRM:Rep,user,E10137,2026-07-19,2026-09-07,TRUE
+riaan.ndlovu@meridian-lab.example,E10179,Riaan Ndlovu,WMS,WMS:Operator,user,E10185,2025-06-13,2026-03-02,TRUE
+bongani.zulu@meridian-lab.example,E10048,Bongani Zulu,ITSM,ITSM:Agent,user,E10074,2026-03-07,2026-09-11,TRUE
+sipho.nkosi@meridian-lab.example,E10135,Sipho Nkosi,CRM,CRM:Manager,user,E10194,2025-07-05,2026-09-01,TRUE
+pieter.evans@meridian-lab.example,E10021,Pieter Evans,ERP,ERP:GL_Post,user,E10036,2026-04-21,2026-09-13,TRUE
+liam.pretorius@meridian-lab.example,E10014,Liam Pretorius,ERP,ERP:GL_Post,user,E10036,2026-06-18,2026-09-08,TRUE
+sarah.jones@meridian-lab.example,E10194,Sarah Jones,BI,BI:Executive,user,,2024-10-28,2026-09-12,TRUE
+johan.mokoena@meridian-lab.example,E10196,Johan Mokoena,BI,BI:Executive,user,E10194,2023-08-25,2026-09-16,TRUE
+oliver.clarke@meridian-lab.example,E10166,Oliver Clarke,WMS,WMS:Approver,user,E10182,2024-04-03,2026-09-21,TRUE
+ruan.dlamini@meridian-lab.example,E10080,Ruan Dlamini,CRM,CRM:Rep,user,E10130,2023-02-20,2026-09-20,TRUE
+nathan.mahlangu@meridian-lab.example,E10150,Nathan Mahlangu,WMS,WMS:Read,user,E10180,2026-02-20,2026-09-06,TRUE
+ayesha.naidoo@meridian-lab.example,E10079,Ayesha Naidoo,CRM,CRM:Rep,user,E10133,2024-09-14,2026-09-12,TRUE
+michael.dlamini@meridian-lab.example,E10129,Michael Dlamini,CRM,CRM:Rep,user,E10131,2024-08-06,2026-09-25,TRUE
+ethan.moyo@meridian-lab.example,E10060,Ethan Moyo,INFRA,INFRA:Admin_Eligible,user,E10073,2024-08-23,2026-09-19,FALSE
+sipho.ngubane@meridian-lab.example,E10154,Sipho Ngubane,WMS,WMS:Read,user,E10180,2023-10-10,2026-09-14,TRUE
+lerato.dlamini@meridian-lab.example,E10001,Lerato Dlamini,HRIS,HRIS:HR_Read,user,E10007,2024-10-18,2026-08-31,TRUE
+olivia.coetzee@meridian-lab.example,E10033,Olivia Coetzee,ERP,ERP:Payroll_Run,user,E10037,2026-08-27,2026-09-06,TRUE
+former-vendor-cleaning@meridian-lab.example,,former-vendor-cleaning,ERP,ERP:GL_Read,user,,2023-04-03,2026-07-18,TRUE
+emma.jansen@meridian-lab.example,E10087,Emma Jansen,CRM,CRM:Rep,user,E10136,2026-04-15,2026-09-23,TRUE
+riaan.mokoena@meridian-lab.example,E10191,Riaan Mokoena,ATS,ATS:Recruiter,user,E10194,2026-07-07,2026-09-11,TRUE
+ctr-bluepeak@meridian-lab.example,,ctr-bluepeak,WMS,WMS:Read,user,,2025-01-06,2025-09-03,TRUE
+samuel.cele@meridian-lab.example,E10208,Samuel Cele,CRM,CRM:Admin,user,E10133,2022-03-19,2026-07-22,TRUE
+test.user1@meridian-lab.example,,test.user1,WMS,WMS:Read,user,,2024-04-18,2026-02-16,TRUE
+kagiso.ngubane@meridian-lab.example,E10065,Kagiso Ngubane,ITSM,ITSM:Agent,user,E10074,2022-11-28,2026-09-04,TRUE
+ntombi.naidoo@meridian-lab.example,E10105,Ntombi Naidoo,CRM,CRM:Rep,user,E10135,2023-07-29,2026-09-08,TRUE
+ruan.tshabalala@meridian-lab.example,E10013,Ruan Tshabalala,ERP,ERP:GL_Post,user,E10039,2023-10-10,2026-09-03,TRUE

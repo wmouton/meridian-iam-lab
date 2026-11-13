@@ -1,0 +1,4 @@
+line,employee_id,reason
+53,E10052,duplicate employee_id
+54,E10052,duplicate employee_id
+218,E10399,invalid start_date: '31/13/2026'

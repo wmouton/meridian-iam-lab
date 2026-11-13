@@ -1,0 +1,18 @@
+// DET-003  Privilege escalation: directory role granted      MITRE: T1098.003 (Additional Cloud Roles)
+// Severity: High (Critical for Global Administrator)   Table: AuditLogs   Run every: 5 min   Lookback: 10 min
+// Logic: any permanent or eligible role assignment. It does not look at PIM activations or time of day. A legitimate
+// assignment should have a matching change ticket; correlate before closing.
+let high_impact = dynamic(["Global Administrator", "Privileged Role Administrator", "Privileged Authentication Administrator",
+                           "User Administrator", "Security Administrator", "Conditional Access Administrator", "Application Administrator"]);
+AuditLogs
+| where TimeGenerated > ago(10m)
+| where OperationName in ("Add member to role", "Add eligible member to role", "Add member to role in PIM requested (permanent)",
+                          "Add member to role in PIM completed (permanent)", "Add member to role in PIM completed (timebound)",
+                          "Add eligible member to role in PIM completed (permanent)", "Add eligible member to role in PIM completed (timebound)")
+| extend Actor = tostring(coalesce(InitiatedBy.user.userPrincipalName, InitiatedBy.app.displayName)),
+         Target = tostring(TargetResources[0].userPrincipalName),
+         Role = tostring(TargetResources[0].modifiedProperties[1].newValue)
+| extend Role = trim('"', Role), Permanent = OperationName has "permanent"
+| extend Severity = iff(Role == "Global Administrator", "Critical", iff(Role in (high_impact), "High", "Medium"))
+| where Result == "success"
+| project TimeGenerated, Severity, Role, Target, Actor, OperationName, Permanent, CorrelationId

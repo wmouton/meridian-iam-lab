@@ -1,0 +1,10 @@
+{
+  "displayName": "CA006 - Require MFA for Azure management",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": ["all"],
+    "applications": { "includeApplications": ["797f4846-ba00-4fd7-ba43-dac1f8f63013"] },
+    "users": { "includeUsers": ["All"], "excludeGroups": ["{{BREAKGLASS_GROUP_ID}}"] }
+  },
+  "grantControls": { "operator": "OR", "builtInControls": ["mfa"] }
+}

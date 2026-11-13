@@ -1,0 +1,21 @@
+// DET-002  Impossible travel                                 MITRE: T1078 (Valid Accounts)
+// Severity: Medium   Table: SigninLogs   Run every: 1 h   Lookback: 1 d
+// Logic: two successful sign-ins whose implied speed exceeds 900 km/h. Tune out VPN egress IPs / named locations first.
+// Entra ID Protection raises its own "impossible travel" risk detection; this rule gives you a transparent, tunable version.
+let max_speed_kmh = 900.0;
+SigninLogs
+| where TimeGenerated > ago(1d) and ResultType == 0
+| extend City = tostring(LocationDetails.city), Country = tostring(LocationDetails.countryOrRegion),
+         Lat = todouble(LocationDetails.geoCoordinates.latitude), Lon = todouble(LocationDetails.geoCoordinates.longitude)
+| where isnotnull(Lat) and isnotnull(Lon)
+| project TimeGenerated, UserPrincipalName, IPAddress, City, Country, Lat, Lon, AppDisplayName
+| sort by UserPrincipalName asc, TimeGenerated asc
+| extend PrevUser = prev(UserPrincipalName), PrevTime = prev(TimeGenerated), PrevLat = prev(Lat), PrevLon = prev(Lon),
+         PrevCity = prev(City), PrevCountry = prev(Country), PrevIP = prev(IPAddress)
+| where UserPrincipalName == PrevUser and Country != PrevCountry
+| extend DistanceKm = geo_distance_2points(Lon, Lat, PrevLon, PrevLat) / 1000.0,
+         Hours = max_of(datetime_diff('second', TimeGenerated, PrevTime) / 3600.0, 0.01)
+| extend SpeedKmh = round(DistanceKm / Hours, 0)
+| where DistanceKm > 500 and SpeedKmh > max_speed_kmh
+| project TimeGenerated, UserPrincipalName, From = strcat(PrevCity, ", ", PrevCountry), To = strcat(City, ", ", Country),
+          PrevIP, IPAddress, DistanceKm = round(DistanceKm, 0), Hours = round(Hours, 2), SpeedKmh

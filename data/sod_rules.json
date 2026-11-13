@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {"id": "SOD-001", "entitlement_a": "ERP:AP_Entry",    "entitlement_b": "ERP:AP_Approve",   "severity": "Critical", "rationale": "One person must not both enter and approve a supplier payment (payment fraud)."},
+    {"id": "SOD-002", "entitlement_a": "ERP:GL_Post",     "entitlement_b": "ERP:AP_Approve",   "severity": "High",     "rationale": "Posting journals and approving payables allows concealment of fraudulent payments."},
+    {"id": "SOD-003", "entitlement_a": "ERP:Payroll_Run", "entitlement_b": "HRIS:HR_Admin",    "severity": "Critical", "rationale": "Creating or changing employees and running payroll enables ghost-employee fraud."},
+    {"id": "SOD-004", "entitlement_a": "SIEM:Analyst",    "entitlement_b": "INFRA:Admin_Eligible", "severity": "High", "rationale": "Infrastructure admins must not be the sole reviewers of logs that record their own actions."},
+    {"id": "SOD-005", "entitlement_a": "WMS:Operator",    "entitlement_b": "WMS:Approver",     "severity": "Medium",   "rationale": "Stock movements must be approved by someone other than the operator."},
+    {"id": "SOD-006", "entitlement_a": "CRM:Admin",       "entitlement_b": "CRM:Rep",          "severity": "Medium",   "rationale": "A CRM administrator must not also own pipeline whose records they can alter."}
+  ]
+}

@@ -1,0 +1,10 @@
+// DET-008  Break-glass account used                          MITRE: T1078.004
+// Severity: Critical   Table: SigninLogs   Run every: 5 min   Lookback: 10 min
+// Break-glass accounts are excluded from Conditional Access, so ANY sign-in is either a real emergency or an attack.
+// Maintain the watchlist 'BreakGlassAccounts' in Sentinel and set its SearchKey column to the UPN.
+let breakglass = _GetWatchlist('BreakGlassAccounts') | project UserPrincipalName = tolower(SearchKey);
+SigninLogs
+| where TimeGenerated > ago(10m)
+| where tolower(UserPrincipalName) in (breakglass)
+| project TimeGenerated, UserPrincipalName, ResultType, ResultDescription, IPAddress,
+          Country = tostring(LocationDetails.countryOrRegion), AppDisplayName, ConditionalAccessStatus

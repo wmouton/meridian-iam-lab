@@ -1,0 +1,50 @@
+[project]
+name = "meridian-iam-lab"
+version = "1.0.0"
+description = "Workforce IAM lab: JML automation, RBAC and SoD, access reviews, Conditional Access policies and Sentinel detections"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = []          # runtime is standard library only, by design
+
+[project.urls]
+Homepage = "https://github.com/wmouton/meridian-iam-lab"
+Issues = "https://github.com/wmouton/meridian-iam-lab/issues"
+
+[project.scripts]
+iam-generate-data = "meridian_iam.generate_hr_data:cli"
+iam-jml = "meridian_iam.jml_engine:main"
+iam-access-review = "meridian_iam.access_review_analyzer:main"
+iam-remediate = "meridian_iam.simulate_remediation:main"
+
+[dependency-groups]
+dev = ["pytest>=8.0", "ruff>=0.8"]
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/meridian_iam"]
+
+[tool.uv]
+# Data files (role catalog, SoD rules) are resolved relative to the repository root,
+# so this project is meant to be used from a checkout (uv installs it editable).
+required-version = ">=0.5"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 140
+src = ["src", "tests"]
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "C4"]
+ignore = ["E501", "E702", "E731"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["meridian_iam"]

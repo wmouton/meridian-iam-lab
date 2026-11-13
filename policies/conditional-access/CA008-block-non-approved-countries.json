@@ -1,0 +1,11 @@
+{
+  "displayName": "CA008 - Block sign-ins from non-approved countries",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": ["all"],
+    "applications": { "includeApplications": ["All"] },
+    "users": { "includeUsers": ["All"], "excludeGroups": ["{{BREAKGLASS_GROUP_ID}}"] },
+    "locations": { "includeLocations": ["{{BLOCKED_COUNTRIES_LOCATION_ID}}"] }
+  },
+  "grantControls": { "operator": "OR", "builtInControls": ["block"] }
+}

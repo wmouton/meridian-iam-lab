@@ -1,0 +1,12 @@
+// DET-007  Conditional Access policy changed or deleted      MITRE: T1556 (Modify Authentication Process), T1562 (Impair Defenses)
+// Severity: High   Table: AuditLogs   Run every: 5 min   Lookback: 10 min
+// Any change should map to a change ticket. Disabling or deleting MFA / legacy-block policies is the high-risk pattern.
+AuditLogs
+| where TimeGenerated > ago(10m)
+| where OperationName in ("Update conditional access policy", "Delete conditional access policy", "Add conditional access policy")
+| extend Actor = tostring(coalesce(InitiatedBy.user.userPrincipalName, InitiatedBy.app.displayName)),
+         ActorIP = tostring(InitiatedBy.user.ipAddress),
+         Policy = tostring(TargetResources[0].displayName)
+| extend Risky = OperationName == "Delete conditional access policy"
+              or tostring(TargetResources[0].modifiedProperties) has_any ("\"disabled\"", "enabledForReportingButNotEnforced")
+| project TimeGenerated, OperationName, Policy, Actor, ActorIP, Risky, Result, CorrelationId

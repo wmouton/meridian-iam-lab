@@ -1,0 +1,10 @@
+// DET-006  Sign-in attempts against disabled (offboarded) accounts   MITRE: T1078
+// Severity: Medium (High if >= 5 attempts or multiple IPs)   Table: SigninLogs   Run every: 1 h   Lookback: 24 h
+// 50057 = user account is disabled. Repeated attempts after a leaver was processed mean someone still has the
+// credentials (ex-employee, shared password, or token reuse). Pair with the leaver ticket and revoke sessions again.
+SigninLogs
+| where TimeGenerated > ago(24h) and ResultType == "50057"
+| summarize Attempts = count(), IPs = dcount(IPAddress), Countries = make_set(tostring(LocationDetails.countryOrRegion), 5),
+            Apps = make_set(AppDisplayName, 5), First = min(TimeGenerated), Last = max(TimeGenerated) by UserPrincipalName
+| extend Severity = iff(Attempts >= 5 or IPs > 1, "High", "Medium")
+| sort by Attempts desc

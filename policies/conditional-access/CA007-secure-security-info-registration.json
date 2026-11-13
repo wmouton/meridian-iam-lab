@@ -1,0 +1,10 @@
+{
+  "displayName": "CA007 - Securing security info registration requires MFA",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": ["all"],
+    "applications": { "includeUserActions": ["urn:user:registersecurityinfo"] },
+    "users": { "includeUsers": ["All"], "excludeGroups": ["{{BREAKGLASS_GROUP_ID}}"] }
+  },
+  "grantControls": { "operator": "OR", "builtInControls": ["mfa"] }
+}

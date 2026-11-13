@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+state/
+out/
+*.log
+.env
+*.pfx
+*.pem
+*.key
+.vscode/
+.idea/
+.venv/
+dist/
+*.egg-info/
+.obsidian

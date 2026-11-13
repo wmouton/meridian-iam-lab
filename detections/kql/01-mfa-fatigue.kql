@@ -1,0 +1,19 @@
+// DET-001  MFA fatigue / push bombing                        MITRE: T1621 (MFA Request Generation)
+// Severity: High   Table: SigninLogs   Run every: 10 min   Lookback: 30 min
+// Logic: many MFA challenges the user did not satisfy, followed by a success. The user probably approved to make it stop.
+// Result codes counted: 500121 (MFA failed or denied) and 50074 (strong auth challenge). 50076 (MFA required by policy)
+// is left out on purpose: it fires on ordinary prompts and would bury the signal.
+let window = 30m;
+let denied_threshold = 5;
+let denied = SigninLogs
+    | where TimeGenerated > ago(window)
+    | where ResultType in ("500121", "50074")
+    | summarize Denied = count(), FirstDenied = min(TimeGenerated), LastDenied = max(TimeGenerated),
+                IPs = make_set(IPAddress, 10), Apps = make_set(AppDisplayName, 10) by UserPrincipalName
+    | where Denied >= denied_threshold;
+SigninLogs
+| where TimeGenerated > ago(window)
+| where ResultType == 0 and AuthenticationRequirement == "multiFactorAuthentication"
+| join kind=inner denied on UserPrincipalName
+| where TimeGenerated >= FirstDenied
+| project TimeGenerated, UserPrincipalName, SuccessIP = IPAddress, SuccessApp = AppDisplayName, Denied, FirstDenied, LastDenied, IPs, Apps

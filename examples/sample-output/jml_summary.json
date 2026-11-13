@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-30",
+  "actions": {
+    "CREATE": 6,
+    "DISABLE": 4,
+    "MOVER": 8
+  },
+  "total_actions": 18,
+  "quarantined_rows": 3,
+  "sod_conflicts_prevented_on_movers": 2,
+  "upcoming_leavers_14d": [
+    "E10166"
+  ],
+  "mode": "apply",
+  "safety_problems": []
+}

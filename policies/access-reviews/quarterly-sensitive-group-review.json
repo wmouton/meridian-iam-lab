@@ -1,0 +1,30 @@
+{
+  "displayName": "Quarterly review - {{GROUP_NAME}}",
+  "descriptionForAdmins": "Quarterly recertification of a sensitive entitlement group (SOX ITGC / ISO 27001 A.5.18 / SOC 2 CC6.3).",
+  "descriptionForReviewers": "Confirm each person still needs this access for their current job. If unsure, deny. No response = access removed.",
+  "scope": {
+    "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+    "query": "/groups/{{GROUP_ID}}/transitiveMembers",
+    "queryType": "MicrosoftGraph"
+  },
+  "reviewers": [
+    { "query": "./manager", "queryType": "MicrosoftGraph", "queryRoot": "decisions_for_this_item" }
+  ],
+  "fallbackReviewers": [
+    { "query": "/users/{{REVIEWER_USER_ID}}", "queryType": "MicrosoftGraph" }
+  ],
+  "settings": {
+    "mailNotificationsEnabled": true,
+    "reminderNotificationsEnabled": true,
+    "justificationRequiredOnApproval": true,
+    "defaultDecisionEnabled": true,
+    "defaultDecision": "Deny",
+    "instanceDurationInDays": 14,
+    "autoApplyDecisionsEnabled": true,
+    "recommendationsEnabled": true,
+    "recurrence": {
+      "pattern": { "type": "absoluteMonthly", "interval": 3 },
+      "range": { "type": "noEnd", "startDate": "{{START_DATE}}" }
+    }
+  }
+}

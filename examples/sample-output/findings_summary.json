@@ -1,0 +1,20 @@
+{
+  "accounts_reviewed": 226,
+  "entitlement_rows_reviewed": 303,
+  "total_findings": 93,
+  "accounts_with_findings": 79,
+  "by_severity": {
+    "Critical": 33,
+    "High": 12,
+    "Medium": 48
+  },
+  "by_type": {
+    "DORMANT_ACCOUNT": 23,
+    "EXCESS_ENTITLEMENT": 28,
+    "LEAVER_ACTIVE_ACCESS": 9,
+    "LEAVER_POST_TERMINATION_LOGIN": 3,
+    "ORPHAN_ACCOUNT": 14,
+    "PRIVILEGED_NO_MFA": 5,
+    "SOD_VIOLATION": 11
+  }
+}

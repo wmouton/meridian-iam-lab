@@ -1,0 +1,9 @@
+// DET-005  Legacy authentication success                     MITRE: T1078 / T1110.003 (Password Spraying)
+// Severity: Medium   Table: SigninLogs   Run every: 1 h   Lookback: 1 h
+// Logic: legacy protocols cannot do MFA. If CA002 is enforced this should return nothing; any row is a policy gap.
+let legacy = dynamic(["Exchange ActiveSync", "IMAP4", "POP3", "SMTP", "Other clients", "Authenticated SMTP",
+                      "Exchange Web Services", "MAPI Over HTTP", "Offline Address Book", "Autodiscover", "Exchange Online PowerShell"]);
+SigninLogs
+| where TimeGenerated > ago(1h) and ResultType == 0
+| where ClientAppUsed in (legacy)
+| summarize SignIns = count(), IPs = make_set(IPAddress, 10) by UserPrincipalName, ClientAppUsed, AppDisplayName

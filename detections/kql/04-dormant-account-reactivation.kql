@@ -1,0 +1,19 @@
+// DET-004  Dormant account suddenly active                   MITRE: T1078.004 (Cloud Accounts)
+// Severity: High   Table: SigninLogs   Run every: 1 h   Lookback: 1 h (history 180 d)
+// Logic: a successful sign-in by an account with no successful sign-in in the previous 90 days.
+// Needs >= 180 days of SigninLogs retention (set workspace retention accordingly).
+// Blind spot: an account with no sign-in at all inside the 180-day history window has no LastBefore and is dropped, so
+// accounts dormant for longer than that are not caught. Telling them apart from a genuine first sign-in needs the
+// account creation date from AuditLogs or the directory.
+let dormant_days = 90d;
+let recent = SigninLogs
+    | where TimeGenerated > ago(1h) and ResultType == 0
+    | summarize RecentSignIn = max(TimeGenerated), IPs = make_set(IPAddress, 5), Apps = make_set(AppDisplayName, 5) by UserPrincipalName;
+let history = SigninLogs
+    | where TimeGenerated between (ago(180d) .. ago(1h)) and ResultType == 0
+    | summarize LastBefore = max(TimeGenerated) by UserPrincipalName;
+recent
+| join kind=leftouter history on UserPrincipalName
+| extend DormantFor = RecentSignIn - coalesce(LastBefore, datetime(null))
+| where isnull(LastBefore) == false and DormantFor > dormant_days
+| project RecentSignIn, UserPrincipalName, LastBefore, DormantDays = toint(DormantFor / 1d), IPs, Apps

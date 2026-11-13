@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-09-30",
+  "orphan": [
+    "ctr-bluepeak@meridian-lab.example",
+    "ctr-ironvale@meridian-lab.example",
+    "ctr-kwezi@meridian-lab.example",
+    "ctr-lumen@meridian-lab.example",
+    "ctr-northgate@meridian-lab.example",
+    "ctr-tidewater@meridian-lab.example",
+    "former-vendor-audit@meridian-lab.example",
+    "former-vendor-cleaning@meridian-lab.example",
+    "former-vendor-print@meridian-lab.example",
+    "former-vendor-travel@meridian-lab.example",
+    "test.user1@meridian-lab.example",
+    "test.user2@meridian-lab.example",
+    "test.user3@meridian-lab.example",
+    "test.user4@meridian-lab.example"
+  ],
+  "leaver_active": [
+    "ayesha.radebe@meridian-lab.example",
+    "emma.ndlovu@meridian-lab.example",
+    "lindiwe.botha@meridian-lab.example",
+    "pieter.mokoena@meridian-lab.example",
+    "ryan.dlamini@meridian-lab.example",
+    "samuel.cele@meridian-lab.example",
+    "samuel.govender@meridian-lab.example",
+    "sarah.fourie@meridian-lab.example",
+    "sipho.patel@meridian-lab.example"
+  ],
+  "leaver_post_termination_login": [
+    "emma.ndlovu@meridian-lab.example",
+    "samuel.govender@meridian-lab.example",
+    "sarah.fourie@meridian-lab.example"
+  ],
+  "sod": {
+    "SOD-001": [
+      "jacob.jansen@meridian-lab.example",
+      "jacob.mthembu@meridian-lab.example",
+      "lindiwe.pretorius@meridian-lab.example",
+      "nathan.cele@meridian-lab.example",
+      "samuel.brown@meridian-lab.example",
+      "sipho.wilson@meridian-lab.example"
+    ],
+    "SOD-003": [
+      "liam.khumalo@meridian-lab.example",
+      "lindiwe.nkosi@meridian-lab.example",
+      "riaan.smith@meridian-lab.example"
+    ],
+    "SOD-005": [
+      "oliver.clarke@meridian-lab.example",
+      "priya.fourie@meridian-lab.example"
+    ]
+  },
+  "dormant": [
+    "bongani.ngubane@meridian-lab.example",
+    "fatima.ferreira@meridian-lab.example",
+    "fatima.moyo@meridian-lab.example",
+    "hannah.evans@meridian-lab.example",
+    "isabella.brown@meridian-lab.example",
+    "johan.patel@meridian-lab.example",
+    "kagiso.pretorius@meridian-lab.example",
+    "lindiwe.clarke@meridian-lab.example",
+    "lindiwe.evans@meridian-lab.example",
+    "megan.smith@meridian-lab.example",
+    "mpho.clarke@meridian-lab.example",
+    "mpho.maseko@meridian-lab.example",
+    "mpho.taylor@meridian-lab.example",
+    "naledi.cele@meridian-lab.example",
+    "naledi.sithole@meridian-lab.example",
+    "nomsa.williams@meridian-lab.example",
+    "olivia.naidoo@meridian-lab.example",
+    "pieter.sithole@meridian-lab.example",
+    "pieter.taylor@meridian-lab.example",
+    "riaan.ndlovu@meridian-lab.example",
+    "thabo.tshabalala@meridian-lab.example",
+    "thandi.ferreira@meridian-lab.example",
+    "zanele.dlamini@meridian-lab.example"
+  ],
+  "excess_entitlement": [
+    "bongani.zulu@meridian-lab.example",
+    "chloe.patel@meridian-lab.example",
+    "ethan.patel@meridian-lab.example",
+    "isabella.radebe@meridian-lab.example",
+    "jacob.jansen@meridian-lab.example",
+    "jacob.mthembu@meridian-lab.example",
+    "jacob.ndlovu@meridian-lab.example",
+    "johan.mokoena@meridian-lab.example",
+    "liam.khumalo@meridian-lab.example",
+    "lindiwe.nkosi@meridian-lab.example",
+    "lindiwe.pretorius@meridian-lab.example",
+    "nathan.cele@meridian-lab.example",
+    "nomsa.mahlangu@meridian-lab.example",
+    "nomsa.moyo@meridian-lab.example",
+    "oliver.clarke@meridian-lab.example",
+    "palesa.patel@meridian-lab.example",
+    "palesa.wilson@meridian-lab.example",
+    "priya.fourie@meridian-lab.example",
+    "riaan.mokoena@meridian-lab.example",
+    "riaan.smith@meridian-lab.example",
+    "ryan.jansen@meridian-lab.example",
+    "samuel.brown@meridian-lab.example",
+    "sarah.taylor@meridian-lab.example",
+    "sipho.evans@meridian-lab.example",
+    "sipho.sithole@meridian-lab.example",
+    "sipho.wilson@meridian-lab.example",
+    "tariq.evans@meridian-lab.example",
+    "themba.zulu@meridian-lab.example"
+  ],
+  "privileged_no_mfa": [
+    "daniel.wilson@meridian-lab.example",
+    "ethan.moyo@meridian-lab.example",
+    "johan.dlamini@meridian-lab.example",
+    "mpho.evans@meridian-lab.example",
+    "themba.radebe@meridian-lab.example"
+  ],
+  "service_accounts_clean": [
+    "svc-backup@meridian-lab.example",
+    "svc-crm-sync@meridian-lab.example",
+    "svc-erp-integration@meridian-lab.example"
+  ],
+  "day30_changes": {
+    "joiners": [
+      "E10301",
+      "E10302",
+      "E10303",
+      "E10304",
+      "E10305",
+      "E10306"
+    ],
+    "movers": [
+      "E10030",
+      "E10033",
+      "E10082",
+      "E10096",
+      "E10140",
+      "E10119",
+      "E10090",
+      "E10188"
+    ],
+    "leavers": [
+      "E10086",
+      "E10144",
+      "E10120",
+      "E10062"
+    ],
+    "scheduled_leavers": [
+      "E10166"
+    ],
+    "bad_rows": [
+      "E10052",
+      "E10399"
+    ],
+    "sod_prevented_movers": [
+      "E10030",
+      "E10033"
+    ]
+  }
+}

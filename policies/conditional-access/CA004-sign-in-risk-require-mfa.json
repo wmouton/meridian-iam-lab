@@ -1,0 +1,11 @@
+{
+  "displayName": "CA004 - Medium/high sign-in risk requires MFA (P2)",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": ["all"],
+    "signInRiskLevels": ["high", "medium"],
+    "applications": { "includeApplications": ["All"] },
+    "users": { "includeUsers": ["All"], "excludeGroups": ["{{BREAKGLASS_GROUP_ID}}"] }
+  },
+  "grantControls": { "operator": "OR", "builtInControls": ["mfa"] }
+}

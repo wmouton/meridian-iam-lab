@@ -1,0 +1,33 @@
+{
+  "company": {
+    "name": "Meridian Financial Services (fictional)",
+    "domain": "meridian-lab.example"
+  },
+  "birthright_entitlements": ["M365:E3", "Teams:Member", "HRIS:Self_Service", "VPN:Standard"],
+  "privileged_entitlements": ["HRIS:HR_Admin", "INFRA:Admin_Eligible", "IAM:Helpdesk_Admin", "ITSM:Admin", "CRM:Admin"],
+  "titles": {
+    "HR Generalist":        {"department": "HR",        "business_role": "BR-HR-GEN",     "headcount": 5,  "is_manager": false, "entitlements": ["HRIS:HR_Read"]},
+    "HR Manager":           {"department": "HR",        "business_role": "BR-HR-MGR",     "headcount": 2,  "is_manager": true,  "entitlements": ["HRIS:HR_Read", "HRIS:HR_Admin"]},
+    "Recruiter":            {"department": "HR",        "business_role": "BR-HR-REC",     "headcount": 5,  "is_manager": false, "entitlements": ["ATS:Recruiter"]},
+    "Accountant":           {"department": "Finance",   "business_role": "BR-FIN-ACCT",   "headcount": 10, "is_manager": false, "entitlements": ["ERP:GL_Post"]},
+    "AP Specialist":        {"department": "Finance",   "business_role": "BR-FIN-AP",     "headcount": 9,  "is_manager": false, "entitlements": ["ERP:AP_Entry"]},
+    "Payroll Specialist":   {"department": "Finance",   "business_role": "BR-FIN-PAY",    "headcount": 4,  "is_manager": false, "entitlements": ["ERP:Payroll_Run"]},
+    "Finance Manager":      {"department": "Finance",   "business_role": "BR-FIN-MGR",    "headcount": 3,  "is_manager": true,  "entitlements": ["ERP:AP_Approve", "ERP:GL_Read"]},
+    "Controller":           {"department": "Finance",   "business_role": "BR-FIN-CTRL",   "headcount": 2,  "is_manager": true,  "entitlements": ["ERP:AP_Approve", "ERP:GL_Read", "ERP:Period_Close"]},
+    "Helpdesk Analyst":     {"department": "IT",        "business_role": "BR-IT-HELP",    "headcount": 14, "is_manager": false, "entitlements": ["ITSM:Agent"]},
+    "Systems Administrator":{"department": "IT",        "business_role": "BR-IT-SYSADM",  "headcount": 9,  "is_manager": false, "entitlements": ["ITSM:Agent", "INFRA:Admin_Eligible"]},
+    "IAM Analyst":          {"department": "IT",        "business_role": "BR-IT-IAM",     "headcount": 4,  "is_manager": false, "entitlements": ["ITSM:Agent", "IAM:Helpdesk_Admin"]},
+    "Security Analyst":     {"department": "IT",        "business_role": "BR-IT-SEC",     "headcount": 5,  "is_manager": false, "entitlements": ["SIEM:Analyst"]},
+    "IT Manager":           {"department": "IT",        "business_role": "BR-IT-MGR",     "headcount": 3,  "is_manager": true,  "entitlements": ["ITSM:Admin", "SIEM:Reader"]},
+    "Account Executive":    {"department": "Sales",     "business_role": "BR-SALES-AE",   "headcount": 28, "is_manager": false, "entitlements": ["CRM:Rep"]},
+    "Sales Development Rep":{"department": "Sales",     "business_role": "BR-SALES-SDR",  "headcount": 26, "is_manager": false, "entitlements": ["CRM:Rep"]},
+    "Sales Manager":        {"department": "Sales",     "business_role": "BR-SALES-MGR",  "headcount": 9,  "is_manager": true,  "entitlements": ["CRM:Manager"]},
+    "Sales Ops Analyst":    {"department": "Sales",     "business_role": "BR-SALES-OPS",  "headcount": 7,  "is_manager": false, "entitlements": ["CRM:Admin"]},
+    "Operations Analyst":   {"department": "Operations","business_role": "BR-OPS-ANA",    "headcount": 14, "is_manager": false, "entitlements": ["WMS:Read"]},
+    "Logistics Coordinator":{"department": "Operations","business_role": "BR-OPS-LOG",    "headcount": 20, "is_manager": false, "entitlements": ["WMS:Operator"]},
+    "Operations Manager":   {"department": "Operations","business_role": "BR-OPS-MGR",    "headcount": 6,  "is_manager": true,  "entitlements": ["WMS:Approver"]},
+    "Paralegal":            {"department": "Legal",     "business_role": "BR-LEGAL-PARA", "headcount": 5,  "is_manager": false, "entitlements": ["CLM:Contributor"]},
+    "Corporate Counsel":    {"department": "Legal",     "business_role": "BR-LEGAL-CNSL", "headcount": 3,  "is_manager": true,  "entitlements": ["CLM:Contributor", "CLM:Approver"]},
+    "Executive Leader":     {"department": "Executive", "business_role": "BR-EXEC",       "headcount": 7,  "is_manager": true,  "entitlements": ["BI:Executive"]}
+  }
+}
