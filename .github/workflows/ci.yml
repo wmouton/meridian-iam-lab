@@ -37,7 +37,10 @@ jobs:
       - name: PSScriptAnalyzer
         shell: pwsh
         run: |
-          Install-Module PSScriptAnalyzer -Force -Scope CurrentUser
+          # 1.25.0 intermittently aborts a recursive analysis with "Get-Command is not
+          # recognized"; pin the last release before that regression and load exactly it.
+          Install-Module PSScriptAnalyzer -RequiredVersion 1.24.0 -Force -Scope CurrentUser
+          Import-Module PSScriptAnalyzer -RequiredVersion 1.24.0 -Force
           $r = Invoke-ScriptAnalyzer -Path scripts/powershell -Recurse -Severity Error,Warning -ExcludeRule PSAvoidUsingWriteHost,PSUseShouldProcessForStateChangingFunctions
           $r | Format-Table -AutoSize
           if ($r | Where-Object Severity -eq 'Error') { exit 1 }
